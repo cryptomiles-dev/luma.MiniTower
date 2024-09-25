@@ -2,7 +2,7 @@
 Luma.Examples
 =============
 
-All creadit ro [rm-hull](https://github.com/rm-hull/luma.examples)
+All creadit to rm-hull https://github.com/rm-hull/luma.examples
 
 ## Use the insturction that came with your MiniTower.  Only use this if you loose functionality on the OLED display and are recieving luma errors.
 
