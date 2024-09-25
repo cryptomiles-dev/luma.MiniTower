@@ -2,6 +2,8 @@
 Luma.Examples
 =============
 
+All creadit ro [rm-hull](https://github.com/rm-hull/luma.examples)
+
 ## Use the insturction that came with your MiniTower.  Only use this if you loose functionality on the OLED display and are recieving luma errors.
 
 $ sudo apt install python3-dev python3-pip python3-numpy libfreetype6-dev libjpeg-dev build-essential
