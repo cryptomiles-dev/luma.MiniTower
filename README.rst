@@ -1,29 +1,11 @@
-`luma.core <https://github.com/rm-hull/luma.core>`__ **|**
-`luma.docs <https://github.com/rm-hull/luma.docs>`__ **|**
-`luma.emulator <https://github.com/rm-hull/luma.emulator>`__ **|**
-luma.examples **|**
-`luma.lcd <https://github.com/rm-hull/luma.lcd>`__ **|**
-`luma.led_matrix <https://github.com/rm-hull/luma.led_matrix>`__ **|**
-`luma.oled <https://github.com/rm-hull/luma.oled>`__
 
 Luma.Examples
 =============
 
-.. image:: https://github.com/rm-hull/luma.examples/workflows/luma.examples/badge.svg?branch=master
-   :target: https://github.com/rm-hull/luma.examples/actions?workflow=luma.examples
+## Use the insturction that came with your MiniTower.  Only use this if you loose functionality on the OLED display and are recieving luma errors.
 
-This is the companion repo for running examples against the `luma.emulator <https://github.com/rm-hull/luma.emulator>`_,
-`luma.oled <https://github.com/rm-hull/luma.oled>`_, `luma.lcd <https://github.com/rm-hull/luma.lcd>`_ and
-`luma.led_matrix <https://github.com/rm-hull/luma.led_matrix>`_ display drivers.
-
-Installation instructions
--------------------------
-Assuming you are using a Raspberry Pi (running Debian Jessie or newer), follow the pre-requisites &
-instructions in the above repositories to wire up your display, then from a command-line::
-
-  $ sudo usermod -a -G i2c,spi,gpio pi
-  $ sudo apt install python3-dev python3-pip python3-numpy libfreetype6-dev libjpeg-dev build-essential
-  $ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev
+$ sudo apt install python3-dev python3-pip python3-numpy libfreetype6-dev libjpeg-dev build-essential
+$ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev
 
 Log out and in again and clone this repository::
 
